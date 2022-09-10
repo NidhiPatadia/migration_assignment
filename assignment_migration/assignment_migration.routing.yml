@@ -1,0 +1,21 @@
+entity.cities_data.settings:
+  path: 'admin/structure/cities-data'
+  defaults:
+    _form: '\Drupal\assignment_migration\Form\CitiesDataSettingsForm'
+    _title: 'Cities Data'
+  requirements:
+    _permission: 'administer site configuration'
+assignment_migration.mapping_form:
+  path: '/admin/config/mapping_form'
+  defaults:
+    _form: '\Drupal\assignment_migration\Form\MappingForm'
+    _title: 'Mapping Form'
+  requirements:
+    _permission: 'administer site configuration'
+assignment_migration.process_form:
+  path: '/admin/config/process_data'
+  defaults:
+    _form: '\Drupal\assignment_migration\Form\ProcessForm'
+    _title: 'Process Data from Json to Entity'
+  requirements:
+    _permission: 'administer site configuration'

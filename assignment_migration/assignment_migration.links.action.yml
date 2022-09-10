@@ -1,0 +1,5 @@
+cities_data.add_form:
+  route_name: entity.cities_data.add_form
+  title: 'Add Cities Data'
+  appears_on:
+    - entity.cities_data.collection

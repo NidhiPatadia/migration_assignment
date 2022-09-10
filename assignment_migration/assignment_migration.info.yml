@@ -1,0 +1,8 @@
+name: Assignment Migration
+type: module
+description: 'This module will migrate the json data to drupal entity.'
+package: Custom
+core_version_requirement: ^9
+configure: assignment_migration.mapping_form
+dependencies:
+  - geolocation

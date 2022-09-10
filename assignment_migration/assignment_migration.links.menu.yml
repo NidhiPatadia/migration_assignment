@@ -1,0 +1,20 @@
+entity.cities_data.settings:
+  title: Cities Data
+  description: Configure Cities Data Entity Type
+  route_name:  entity.cities_data.settings
+  parent: system.admin_structure
+entity.cities_data.collection:
+  title: Cities Data
+  description: List of cities data
+  route_name: entity.cities_data.collection
+  parent: system.admin_content
+assignment_migration.mapping_form:
+  title: 'JSON Mapping Form'
+  parent: user.admin_index
+  description: 'Set mapping for cities data entity.'
+  route_name: assignment_migration.mapping_form
+assignment_migration.process_form:
+  title: 'Process Data'
+  parent: user.admin_index
+  description: 'Process Data from Json to Entity'
+  route_name: assignment_migration.process_form
